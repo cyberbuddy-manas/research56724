@@ -76,9 +76,9 @@ app.get('/data', async (req, res) => {
     }
 });
 
-const port = process.env.PORT || 3000; // Use the PORT environment variable, or default to 3000
+const port = process.env.PORT || 8080; // Use the PORT environment variable, or default to 3000
 
-// Start the server
+// Start the server 
 app.listen(port, () => {
     console.log('Server is running on port 3000: http://localhost:5000');
 });
