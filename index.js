@@ -66,8 +66,13 @@ app.get('/', async (req, res) => {
 })
 
 // Route handler to retrieve data
-app.get('/data', async (req, res) => {
+app.get('/data/:num', async (req, res) => {
     try {
+        // Example usage
+        const containerName = "user" + req.params.num;
+
+        // Get or create the container if it doesn't exist
+        const containerClient = blobServiceClient.getContainerClient(containerName);
         const blobs = await retrieveDataValues(containerClient);
         res.json(blobs);
     } catch (error) {
