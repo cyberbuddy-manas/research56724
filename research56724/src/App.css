@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #444;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #333;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #222;
+}
+
+.data-table tr:hover {
+  background-color: #555;
+}
+
+.header {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  padding: 10px 8px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header h3,
+.header p {
+  color: rgb(173, 173, 173);
+}
+
+.header p#noti {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header input {
+  height: 30px;
+  font-size: 20px;
+}
+
+.gg-copy {
+  position: absolute;
+  left: 295px;
+  top: -35px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 14px;
+  height: 18px;
+  zoom: 0.9;
+  border: 2px solid;
+  margin-left: -5px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+
+.gg-copy::after,
+.gg-copy::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.gg-copy::before {
+  background: linear-gradient(to left, currentColor 5px, transparent 0)
+      no-repeat right top/5px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat left
+      bottom/ 2px 5px;
+  box-shadow: inset -4px -4px 0 -2px;
+  bottom: -6px;
+  right: -6px;
+  width: 14px;
+  height: 18px;
+}
+
+.gg-copy::after {
+  width: 6px;
+  height: 2px;
+  background: currentColor;
+  left: 2px;
+  top: 2px;
+  box-shadow: 0 4px 0, 0 8px 0;
+}
+
+ul {
+  padding-left: 30px;
+  line-height: 25px;
+  color: rgb(173, 173, 173);
+}
+
+ul b {
+  color: white;
+}
