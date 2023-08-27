@@ -26,15 +26,19 @@ def generate_data_values(serial_number, timestamp):
     }
 
     # Check if it's the 4th execution
-    if serial_number == 66:
+    if serial_number == 4:
         data["SPO2"] = random.uniform(85, 90)  # Set SPO2 below critical value
     
     # Check if it's the 5th execution
-    if serial_number == 67:
+    if serial_number == 5:
         data["SPO2"] = random.uniform(74, 75)  # Set SPO2 below critical value
 
-    # Check if it's the 5th execution
-    if serial_number == 70:
+    # Check if it's the 6th execution
+    if serial_number == 6:
+        data["SPO2"] = random.uniform(74, 75)  # Set SPO2 below critical value
+
+    # Check if it's the 7th execution
+    if serial_number == 7:
         data["SPO2"] = random.uniform(74, 75)  # Set SPO2 below critical value
 
     return data
@@ -82,4 +86,4 @@ while True:
         print(f"Simulated data uploaded: {container_name}/{blob_name}")
 
     # Wait for 120 seconds before generating and storing the next set of data
-    time.sleep(5)
+    time.sleep(1)

@@ -19,18 +19,18 @@ function Doctor() {
         <summary style={{ marginBottom: 5 }}>First Instance</summary>
         <ul>
           <li>Problem Metric: <b>SPO2</b></li>
-          <li>Recorded at: <b>2023-07-13 15:02:54</b></li>
+          <li>Recorded at: <b>2023-08-14 15:33:14</b></li>
           <li>Normal Range: <b>(90-96)%</b></li>
-          <li>Your Value: <b>89.48%</b></li>
+          <li>Your Value: <b>87.03%</b></li>
         </ul>
       </details>
       <details>
         <summary style={{ marginBottom: 5 }}>Second Instance</summary>
         <ul>
           <li>Problem Metric: <b>SPO2</b></li>
-          <li>Recorded at: <b>2023-07-13 15:04:55</b></li>
+          <li>Recorded at: <b>2023-08-14 15:38:18</b></li>
           <li>Normal Range: <b>(90-96)%</b></li>
-          <li>Your Value: <b>74.29%</b></li>
+          <li>Your Value: <b>74.97%</b></li>
         </ul>
       </details>
     </div>

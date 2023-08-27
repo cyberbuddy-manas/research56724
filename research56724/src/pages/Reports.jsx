@@ -10,7 +10,7 @@ function Reports() {
     return (
         <div className='header'>
             <Link style={{ color: "white" }} to="/">Home</Link>
-            <h1 style={{marginTop: 20}}>Anomaly Reported</h1>
+            <h1 style={{ marginTop: 20 }}>Anomaly Reported</h1>
             <h3>Authorities and your family have been notified and will be reaching to your registered address.</h3>
             Current Registered Address: <span>A-542/1, Ranjit Avenue, Amritsar-143001, Punjab</span>
             <p id='noti'></p><i onClick={copyText} class="gg-copy"></i>
@@ -19,16 +19,16 @@ function Reports() {
             <ul>
                 <h4 style={{ marginBottom: 5 }}>First Instance</h4>
                 <li>Problem Metric: <b>SPO2</b></li>
-                <li>Recorded at: <b>2023-07-13 15:02:54</b></li>
+                <li>Recorded at: <b>2023-08-14 15:33:14</b></li>
                 <li>Normal Range: <b>(90-96)%</b></li>
-                <li>Your Value: <b>89.48%</b></li>
+                <li>Your Value: <b>87.03%</b></li>
             </ul>
             <ul>
                 <h4 style={{ marginBottom: 5 }}>Second Instance</h4>
                 <li>Problem Metric: <b>SPO2</b></li>
-                <li>Recorded at: <b>2023-07-13 15:04:55</b></li>
+                <li>Recorded at: <b>2023-08-14 15:38:18</b></li>
                 <li>Normal Range: <b>(90-96)%</b></li>
-                <li>Your Value: <b>74.29%</b></li>
+                <li>Your Value: <b>74.97%</b></li>
             </ul>
         </div>
     )
